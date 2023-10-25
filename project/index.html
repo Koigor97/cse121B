@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Bible Look-Up</title>
+    <meta name="description"
+        content="This is a simple website that works with an external API to provides Bible book, chapter, and verses. This is very useful when you want to reference something quickly from the Bible">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>📖 Quick Bible Look-Up!</h1>
+        <span><a href="https://www.loom.com/share/bc2529403c5b49969c703bbf89692a36" class="vid-link">👉 Video Demostration 1</a></span>
+        <span><a href="https://www.loom.com/share/fea8e46feb034238b981454ed77b91a4" class="vid-link">👉 Video Demostration 2</a></span>
+        <span><a href="https://www.loom.com/share/845ffac376dc499f8dfdb8bec08fe2d9" class="vid-link">👉 Video Demostration 3</a></span>
+    </header>
+    <main>
+        <label for="reference">Enter the Scripture Reference:</label>
+        <input type="text" id="reference" placeholder="enter reference">
+
+        <label for="translation">Enter translation (optional):</label>
+        <input type="text" id="translation" placeholder="eg. kjv, rccv, bbe">
+
+        <div class="button-box">
+            <span id="btn">Get Verse</span>
+            <span id="btn2">Clear</span>
+        </div>
+
+        <div class="result">
+            <!-- Placeholder -->
+        </div>
+    </main>
+    <footer>
+        <p>😎 .:|:. Samuel</p>
+    </footer>
+    <script src="scripts/project.js"></script>
+</body>
+
+</html>
